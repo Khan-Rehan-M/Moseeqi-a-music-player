@@ -1,4 +1,4 @@
-console.log('lfg');
+
 let currentsong = new Audio();
 let songs;
 let currFolder;
@@ -76,7 +76,7 @@ const playMusic = (track, pause = false) => {
 
 async function displayalbums() {
     // let a = await fetch(`/songs/`)
-    let a = await fetch(`http://192.168.1.108:3000/songs/`);
+    let a = await fetch(`/${folder}/`);
     // let a = await fetch(`http://192.168.1.108:3000/${songs}/`);
 
     // let a = await fetch(`http://192.168.1.108:3000/songs/`)
